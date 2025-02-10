@@ -1,0 +1,20 @@
+{  
+  "sites": [  
+    {  
+      "url": "https://example.com",  
+      "allowed": true,  
+      "selectors": {  
+        "title": "h1",  
+        "content": ".main-text"  
+      }  
+    },  
+    {  
+      "url": "https://anotherexample.com",  
+      "allowed": true,  
+      "selectors": {  
+        "title": "h2",  
+        "content": ".article-content"  
+      }  
+    }  
+  ]  
+}  
